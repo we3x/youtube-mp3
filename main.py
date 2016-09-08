@@ -1,4 +1,4 @@
-import sys, getopt, os
+import os
 from optparse import OptionParser
 
 def download(link):
