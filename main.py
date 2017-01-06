@@ -10,7 +10,6 @@ def download_from_file(file):
     for line in f:
         download(line)
 
-
 def main():
     parser = OptionParser()
     parser.add_option("-l", "--link", dest="link", help="download from link")
