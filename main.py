@@ -19,9 +19,7 @@ def main():
     if options.filename != None:
         download_from_file(options.filename)
     elif options.link != None:
-        download(options.link)
-
-
+        download(options.link
 
 if __name__ == "__main__":
     main()
